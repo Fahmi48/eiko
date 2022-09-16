@@ -1,0 +1,35 @@
+*, html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #1A2238;
+  color: #eaeaea;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  font-family: Arial;
+}
+
+.logo {
+  margin-right: auto;
+  margin-left: 25px;
+}
+
+nav ul {
+  display: flex;
+  padding: 20px
+}
+
+li {
+  list-style-type: none;
+  padding: 10px;
+}
+
+a {
+  color: #eaeaea;
+  text-decoration: none;
+}
